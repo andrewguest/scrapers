@@ -4,7 +4,7 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
-user_image_scraper-updates-check:
+updates:
   # Check for updates in the user_image_scraper project
   - package-ecosystem: "pip"
     directory: "/reddit/user_image_scraper"
